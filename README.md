@@ -8,15 +8,10 @@ yarn or npm install
 
 ### To start:
 ```sh
-yarn start or npm run start
+yarn start or npm start
 ```
 
 ### To run tests:
 ```sh
-yarn test or npm run test
-```
-
-### Production build:
-```sh
-yarn build
+yarn test or npm test
 ```
