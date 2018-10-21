@@ -16,3 +16,7 @@ yarn start or npm run start
 yarn test or npm run test
 ```
 
+### Production build:
+```sh
+yarn build
+```

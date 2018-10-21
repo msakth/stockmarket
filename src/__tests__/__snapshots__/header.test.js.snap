@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header component header links match snapshot 1`] = `
+<div>
+  <a
+    href="/"
+    onClick={[Function]}
+  />
+  <a
+    href="/tradelist"
+    onClick={[Function]}
+  />
+  <a
+    href="/tradeCalculations"
+    onClick={[Function]}
+  />
+</div>
+`;

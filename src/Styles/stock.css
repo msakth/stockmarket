@@ -1,0 +1,16 @@
+.stock {
+  margin: 1.5em;
+}
+
+.panel .panel-heading {
+  background-color: darkgray;
+  color: white;
+}
+
+.panel .panel-body {
+  padding: 2em;
+}
+
+.stock button {
+  width: 20em;
+}

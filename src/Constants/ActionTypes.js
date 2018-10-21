@@ -1,0 +1,20 @@
+const stockTypes = {
+  FETCH_STOCKS_SUCCESS: 'FETCH_STOCKS_SUCCESS',
+  FETCH_STOCKS_FAILURE: 'FETCH_STOCKS_FAILURE',
+};
+
+const tradeListTypes = {
+  ADD_TRADE: 'ADD_TRADE',
+  FETCH_TRADE: 'FETCH_TRADE',
+}
+
+const tradeCalculationsTypes = {
+  COMPLETE_TRADE_CALCULATIONS_SUCCESS: 'COMPLETE_TRADE_CALCULATIONS_SUCCESS',
+  COMPLETE_TRADE_CALCULATIONS_FAILURE: 'COMPLETE_TRADE_CALCULATIONS_FAILURE',
+}
+
+export const ActionTypes = {
+  stockTypes,
+  tradeListTypes,
+  tradeCalculationsTypes
+};
