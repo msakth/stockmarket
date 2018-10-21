@@ -10,9 +10,7 @@ class TradeCalculationsComponent extends React.PureComponent {
                     <td>{stock.stockSymbol}</td><td>{stock.dividentYield}</td><td>{stock.peRatio}</td><td>{stock.GM}</td><td>{stock.VWAP}</td>
                 </tr>)
            : <tr><td colSpan="5">No Trades calculations to display</td></tr>
-
   }
-
 
   render() {
     const tradeCalulationRows = this.getTradeCalculationRows(this.props.tradeResults);

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../../Styles/trade.css';
 
 class TradeListComponent extends React.PureComponent {
@@ -31,6 +32,10 @@ class TradeListComponent extends React.PureComponent {
       </table>
     );
   }
+}
+
+TradeListComponent.propTypes = {
+  trades: PropTypes.array.isRequired
 }
 
 export default TradeListComponent;
