@@ -1,8 +1,8 @@
 const fixedDecimalPlaces = 4;
 
-// ToDoMS: JavaScript doesn't support decimals, only supports floating point which is always not accurate when handling financial data.
-// To improve accuracy one possibility might be to scale all prices to the nearest 100 or 1000's before calculations 
-// to get results more accurate. 
+// JavaScript doesn't support decimals, only supports floating point which is always not accurate when handling 
+// financial data which requires high precision. To improve accuracy one possibility might be to deal all decimal values
+// with integers (ex: converting from pound to pennies) to get results more accurate. Currently I set upto four decimal places.
 
 export const mostRecentPrice = (trades, stockSymbol) => {
     const filteredTradeForStockSymbol = trades.filter(trade => trade.stockSymbol === stockSymbol)
